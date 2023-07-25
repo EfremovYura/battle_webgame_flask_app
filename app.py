@@ -10,6 +10,7 @@ heroes = {}
 
 arena = Arena()
 
+
 @app.route("/")
 def menu_page():
     """Начать игру."""
